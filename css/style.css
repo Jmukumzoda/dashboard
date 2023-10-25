@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Gilroy;
+    text-decoration: none;
+}
+
+
+.h1_and_btn {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.h1_and_btn h1 {
+    color: #000;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    height: 900px;
+}
+
+.btn {
+    width: 153px;
+    height: 40px;
+    flex-shrink: 0;
+    background-color: #007FFF;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+.text {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.text h2 {
+    font-size: 18px;
+}
+
+.text a:nth-last-child() {
+    color: #c4c4c4 !important;
+}
+
+.text a {
+    font-size: 14px;
+    color: #007FFF;
+}
+
+.tr2 {
+    display: flex;
+    gap: 210px;
+}
+
+.tablet {
+    border-collapse: collapse;
+
+}
+
+tbody {
+    display: flex;
+    gap: 135px;
+}
+
+.table {
+    margin-top: 40px;
+}
+
+
+th {
+    color: #949494;
+    padding: 5px;
+}
+
+.discrip {
+    margin-top: 20px;
+
+}
+
+hr {
+    margin-top: 10px;
+    background: #949494;
+
+}
+
+.tr {
+    display: flex;
+    gap: 160px;
+}
+
+.tab {
+    line-height: 40px;
+}
+
+.tr1 {
+    display: flex;
+    gap: 131px;
+}
+
+.h5 {
+    width: 52px;
+}
+
+.article {
+    max-width: 1290px;
+    padding: 0 25px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+
+    margin-top: 58px;
+}
+
+.grid {
+    padding: 20px;
+    margin-top: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #fff;
+    overflow: hidden;
+    border: 1px solid #D8D8D8
+}
+
+.h1 {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.p {
+    margin-top: 10px;
+    color: #A5A5B4;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.p1 {
+    margin-top: 10px;
+}
+
+.soan {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
